@@ -2,16 +2,16 @@
 //function to add the item, add the items
 function addItem()
 //get the value of the input box
-var valueInput = $('#shopping-list-entry').val();
+var itemValue = $('#shopping-list-entry').val();
 
 //validate
-if (valueInput.length === 0) {
+if (itemValue.length === 0) {
     alert('value is empty');
 } else {
     //dynamicaly create one row inside the shopping list
     var row = '';
     row += '<li>';
-    row += '<span class="shopping-item">' + valueInput + '</span>';
+    row += '<span class="shopping-item">' + itemValue + '</span>';
     row += '<div class="shopping-item-controls">';
     row += '<button class="shopping-item-toggle">';
     row += '<span class="button-label">check</span>';
