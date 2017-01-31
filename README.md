@@ -1,3 +1,3 @@
 # Shopping List App Challenge
 
-This repo contains starter files for the *Shopping List App* challenge in Thinkful's Front End Web Development course.
+The app is used to add and remove items from a shopping list, focusing on interactivity with jQuery.
